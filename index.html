@@ -65,8 +65,6 @@
           );
           const json = await response.json();
           setPlayers(json.data.players);
-
-          console.log(players);
         }
         fetchData();
         window.addEventListener(`hashchange`, function () {
